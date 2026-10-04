@@ -1,4 +1,4 @@
-APLIKASI PERPUSTAKAAN
+SISTEM PERPUSTAKAAN
 
 BR-01 Batas Peminjaman Buku Tidak Boleh Lebih Dari 3 Buku
 BR-02 Buku yang Sedang Dipinjam Tidak Dapat Dipinjam Lagi
