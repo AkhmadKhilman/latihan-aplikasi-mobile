@@ -134,6 +134,4 @@ void main() {
   print(data2);
   // print(data2.toupperCase()); // error karena data2 bukan bertipe String
 }
-
-dart
 ```
