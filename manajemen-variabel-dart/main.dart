@@ -75,16 +75,16 @@ void main() {
   bool aktif = true;
   if (aktif) {
     print("Akun aktif");
-  } else {
-    print("Akun tidak aktif");
-  }
+  } //else {
+  //   print("Akun tidak aktif");
+  // }
   // Variable dengan tipe data bool
   aktif = false;
-  if (aktif) {
-    print("Akun aktif");
-  } else {
+  if (!aktif) {
     print("Akun tidak aktif");
-  }
+  } //else {
+  //   print("Akun aktif");
+  // }
 
   // Variable dengan tipe data List
   List<String> namaBarang = ["Laptop", "Mouse", "Keyboard"];
@@ -98,7 +98,7 @@ void main() {
   print(namaBarang);
 
   // Variable dengan tipe data Set
-  Set<String> namaKategori = {"Hardware", "Software", "Hardware"};
+  Set<String> namaKategori = {"Hardware", "Software" /*"Hardware"*/};
   // menampilkan seluruh isi variable Set
   print(
     namaKategori,
